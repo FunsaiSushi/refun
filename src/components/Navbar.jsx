@@ -71,7 +71,11 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <img src="/img/funsai.jpg" alt="logo" className="w-10" />
+            <img
+              src="/img/funsai.jpg"
+              alt="logo"
+              className="w-10 h-10 rounded-full p-1 border hover:border-cyan-400"
+            />
 
             <Button
               id="product-button"
